@@ -1,0 +1,6 @@
+###creacion de proyecto
+docker-compose run web django-admin startproject apiproject .
+###creacion de la app
+django-admin startapp lstmapp
+###docker up
+docker-compose up
