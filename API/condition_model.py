@@ -22,7 +22,7 @@ tokenizer = joblib.load(tokenizer_path)
 encoder_path = 'condition_model/encoder.pkl'
 encoder = joblib.load(encoder_path)
 
-#importando la matris de embeddigs
+#importando la matriz de embeddigs
 embedding_matrix_path = 'condition_model/embedding_matrix.pkl'
 embedding_matrix  = joblib.load(embedding_matrix_path)
 
