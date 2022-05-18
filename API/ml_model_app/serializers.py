@@ -5,7 +5,7 @@ from django.db import models
 from django.db.models import fields
 #importamos el modelo review
 from .models import Review
-#creacion del zerializer
+#creacion del zerializer.
 class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
         model = Review
